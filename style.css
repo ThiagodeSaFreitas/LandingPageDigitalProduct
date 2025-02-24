@@ -22,6 +22,12 @@ h2 {
 
 }
 
+h3 {
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 0;
+}
+
 .button {
     background-color:  #F84646;
     color: white;
@@ -77,6 +83,7 @@ h2 {
 
 .container p {
     margin-top: 1.5rem;
+    font-size: 1.2rem;
     
 }
 
@@ -96,6 +103,10 @@ h2 {
     background-color: #F84646;
     color: #d9d9d9;
     
+}
+
+.backgroud-grey {
+    background-color: #d9d9d9;
 }
 
 .article-details{
@@ -123,4 +134,94 @@ h2 {
 
 .article-container:nth-child(even) > .article-details {
     margin: 0 0 0 2.5rem;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    column-gap: 6.5rem;
+
+}
+
+.footer-list > ul > li {
+    list-style: none;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.footer-list > ul > li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-list > ul > li:first-child {
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8.5rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.grid-item > h3 {
+    margin-top: .5rem;
+}
+
+.grid-item > p {
+    margin: .5rem 0 0;
+}
+
+
+
+.grid-container-partners {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    
+
+}
+
+.grid-item-partners {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    
+}
+
+.company-1 {
+    grid-area: 3 / 1;
+}
+.company-2 {
+    grid-area: 2 / 2;
+}
+.company-3 {
+    grid-area: 3 / 2;
+}
+.company-4 {
+    grid-area:1 / 3;
+}
+.company-5 {
+    grid-area: 2 / 3;
+}
+.company-6 {
+    grid-area: 3 / 3;
+}
+.company-7 {
+    grid-area: 2 / 4;
+}
+.company-8 {
+    grid-area: 3 / 4;
+}
+.company-9 {
+    grid-area: 3 / 5;
 }
